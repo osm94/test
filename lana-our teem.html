@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *
+        {
+            position: relative;
+
+        }
+
+        body{ }
+
+        body {
+            background: #415F77;
+        }
+
+        .title1 {
+            position: absolute;
+            width: 437px;
+            height: 74px;
+            left: 530px;
+            top: -15px;
+
+            font-family: Rum Raisin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 64px;
+            line-height: 83px;
+            display: flex;
+            align-items: flex-end;
+            text-align: justify;
+
+            color: #FFD00C;
+
+        }
+
+
+        .title2 {
+            position: absolute;
+            width: 769px;
+            height: 62px;
+            left: 335px;
+            top: 94px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: justify;
+
+            color: #FFD00C;
+
+        }
+
+
+        .title3 {
+            position: absolute;
+            width: 381px;
+            height: 42px;
+            left: 529px;
+            top: 168px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: justify;
+
+            color: #FFD00C;
+
+        }
+
+
+        .title4 {
+            position: absolute;
+            width: 381px;
+            height: 42px;
+            left: 685px;
+            top: 168px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: justify;
+
+            color: #FC5050;
+
+        }
+
+        .img1 {
+            position: absolute;
+            width: 322px;
+            height: 334px;
+            left: 134px;
+            top: 364px;
+           
+
+            background: url(image.png);
+        }
+
+        .text1 {
+            position: absolute;
+            width: 232px;
+            height: 42px;
+            left: 52px;
+            top: -42px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: justify;
+
+            color: #000000;
+
+        }
+
+        .text2 {
+            position: absolute;
+            width: 166px;
+            height: 42px;
+            left: 69px;
+            top: 12px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: justify;
+
+            color: #FC5050;
+
+        }
+
+        .text3 {
+            position: absolute;
+            width: 273px;
+            height: 84px;
+            left: 22px;
+            top: 71px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: justify;
+
+            color: #000000;
+        }
+
+        .button1 {
+            position: absolute;
+            width: 110px;
+            height: 42px;
+            left: 182px;
+            top: 222px;
+
+            background: #D1E9EA;
+        }
+
+        .card1 {
+            position: absolute;
+            width: 322px;
+            height: 307px;
+            left: 134px;
+            top: 698px;
+
+            background: #FFFFFF;
+        }
+
+
+        .img2 {
+            position: absolute;
+            width: 322px;
+            height: 334px;
+            left: 973px;
+            top: 365px;
+
+            background: url(image.png);
+
+        }
+
+        .card2 {
+            position: absolute;
+            width: 322px;
+            height: 307px;
+            left: 973px;
+            top: 698px;
+
+            background: #FFFFFF;
+
+        }
+
+        .text4 {
+            position: absolute;
+            width: 232px;
+            height: 42px;
+            left: 52px;
+            top: -42px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: justify;
+
+            color: #000000;
+
+        }
+
+        .text5 {
+            position: absolute;
+            width: 164px;
+            height: 42px;
+            left: 69px;
+            top: 12px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: justify;
+
+            color: #FC5050;
+
+
+        }
+
+        .text6 {
+
+            position: absolute;
+            width: 273px;
+            height: 84px;
+            left: 22px;
+            top: 74px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: justify;
+
+            color: #000000;
+        }
+
+        .button2 {
+            position: absolute;
+            width: 110px;
+            height: 42px;
+            left: 172px;
+            top: 222px;
+
+            background: #D1E9EA;
+
+        }
+
+        .img3 {
+            position: absolute;
+            width: 322px;
+            height: 334px;
+            left: 134px;
+            top: 1095px;
+
+            background: url(image.png);
+
+        }
+
+        .card3 {
+            position: absolute;
+            width: 322px;
+            height: 307px;
+            left: 134px;
+            top: 1429px;
+
+            background: #FFFFFF;
+
+        }
+
+        .text7 {
+            position: absolute;
+            width: 232px;
+            height: 42px;
+            left: 52px;
+            top: -42px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: justify;
+
+            color: #000000;
+
+        }
+
+        .text8 {
+
+            position: absolute;
+            width: 166px;
+            height: 42px;
+            left: 88px;
+            top: 12px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: justify;
+
+            color: #FC5050;
+
+        }
+
+
+        .text9 {
+
+            position: absolute;
+            width: 269px;
+            height: 84px;
+            left: 18px;
+            top: 70px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: justify;
+            color: #000000;
+
+        }
+
+        .button3 {
+            position: absolute;
+            width: 110px;
+            height: 42px;
+            left: 182px;
+            top: 222px;
+            background: #D1E9EA;
+
+        }
+
+        .img4 {
+            position: absolute;
+            width: 322px;
+            height: 334px;
+            left: 973px;
+            top: 1095px;
+
+            background: url(image.png);
+
+        }
+
+        .card4 {
+            position: absolute;
+            width: 322px;
+            height: 307px;
+            left: 973px;
+            top: 1429px;
+
+            background: #FFFFFF;
+
+        }
+
+        .text10 {
+            position: absolute;
+            width: 232px;
+            height: 42px;
+            left: 52px;
+            top: -42px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: justify;
+
+            color: #000000;
+
+
+        }
+
+        .text11 {
+            position: absolute;
+            width: 166px;
+            height: 42px;
+            left: 88px;
+            top: 12px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: justify;
+
+            color: #FC5050;
+
+
+        }
+
+        .text12 {
+
+            position: absolute;
+            width: 273px;
+            height: 84px;
+            left: 18px;
+            top: 70px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: justify;
+
+            color: #000000;
+
+
+        }
+
+        .button4 {
+            position: absolute;
+            width: 110px;
+            height: 42px;
+            left: 182px;
+            top: 222px;
+
+            background: #D1E9EA;
+
+        }
+
+
+        .end {
+            position: absolute;
+            width: 400px;
+            height: 42px;
+            left: 565px;
+            top: 1858px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: justify;
+
+            color: #FFD00C;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h3 class="title1">Meet Our Team</h3>
+
+    <h5 class="title2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident</h5>
+
+    <h4 class="title3">Desgin by</h4>
+
+    <h4 class="title4">cs50x studint</h4>
+
+    <div>
+        <img src="color1.png" alt="color1" class="img1">
+        <div style=" color: #FFFFFF; border:1px solid #000;" class="card1">
+
+            <h4 class="text1">web developer</h4>
+            <h4 class="text2">Lana Firas</h4>
+            <h5 class="text3">Adipiscing elit, sed do eiusmo tempor incididunt ut labore</h5>
+            <input type="button" value="See profile" class="button1">
+        </div>
+    </div>
+
+
+    <div>
+        <img src="color2.png" alt="color2" class="img2">
+        <div style=" color: #FFFFFF; border:1px solid #000;" class="card2">
+            <h4 class="text4">web developer</h4>
+            <h4 class="text5">Osama Ali</h4>
+            <h5 class="text6">Adipiscing elit, sed do eiusmo tempor incididunt ut labore</h5>
+            <input type="button" value="See profile" class="button2">
+        </div>
+    </div>
+
+    <div>
+        <img src="color2.png" alt="img3" class="img3">
+        <div style=" color: #FFFFFF; border:1px solid #000;" class="card3">
+            <h4 class="text7">web developer</h4>
+            <h4 class="text8">NAME</h4>
+            <h5 class="text9">Adipiscing elit, sed do eiusmo tempor incididunt ut labore</h5>
+            <input type="button" value="See profile" class="button3">
+        </div>
+
+    </div>
+
+    <div>
+        <img src="color1.png" alt="img4" class="img4">
+        <div style=" color: #FFFFFF; border:1px solid #000;" class="card4">
+            <h4 class="text10">web developer</h4>
+            <h4 class="text11">NAME</h4>
+            <h5 class="text12">Adipiscing elit, sed do eiusmo tempor incididunt ut labore</h5>
+            <input type="button" value="See profile" class="button4">
+        </div>
+
+    </div>
+
+    <h5 class="end">Thank You To Visit Us</h5>
+</body>
+
+</html>
